@@ -1,1 +1,22 @@
-/* Add CSS Styling */
+/* Since I am using class "odd" on third element, there is no reason to group selectors. I am apllyign "odd" styling twice. */
+.odd,
+.special {
+    background-color: #ff6895;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.special {
+    font-size: 24px;
+}
+
+#big-guy {
+    font-size: 36px;
+    color: #0000ff;
+}
+
+/* Instead of making font-size property I could reuse "special" class */
+#green-guy {
+    background-color: #90ee90;
+    font-size: 24px;
+    font-weight: 700;
+}
